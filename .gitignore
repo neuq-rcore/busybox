@@ -61,3 +61,8 @@ TAGS
 # user-supplied scripts
 #
 /embed
+
+#
+# compile output
+#
+/out
