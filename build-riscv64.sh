@@ -27,3 +27,4 @@ make -j$(nproc --all) O=$O \
                       CROSS_COMPILE=riscv64-linux-gnu-
 
 cp $O/busybox busybox-${ARCH}
+echo -e "${GREEN}=> cat busybox-${ARCH}${RESET}"
