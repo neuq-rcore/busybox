@@ -1,8 +1,8 @@
 #!/bin/bash
 
-DEFCONFIG="defconfig"
+DEFCONFIG="allnoconfig"
 O="out"
-ARCH="riscv"
+ARCH="riscv64"
 
 GREEN="\033[0;32m"
 BLUE="\033[0;34m"
