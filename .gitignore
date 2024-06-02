@@ -66,3 +66,5 @@ TAGS
 # compile output
 #
 /out
+busybox-riscv64
+busybox-x86_64

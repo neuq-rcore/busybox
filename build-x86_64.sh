@@ -13,6 +13,7 @@ RESET="\033[0m"
 # clean environment
 echo -e "${YELLOW}-> make mrproper ...${RESET}"
 rm -rf $O
+rm -f busybox-${ARCH}
 make mrproper
 
 # build kernel
@@ -25,4 +26,4 @@ make -j$(nproc --all) O=$O \
                       ARCH=$ARCH \
                       CROSS_COMPILE=
 
-cp $O/busybox .
+cp $O/busybox busybox-${ARCH}
