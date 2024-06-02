@@ -24,3 +24,5 @@ echo -e "${YELLOW}-> make ...${RESET}"
 make -j$(nproc --all) O=$O \
                       ARCH=$ARCH \
                       CROSS_COMPILE=riscv64-linux-gnu-
+
+cp $O/busybox .
